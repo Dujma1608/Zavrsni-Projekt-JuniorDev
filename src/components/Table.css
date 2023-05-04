@@ -1,0 +1,69 @@
+table {
+    width: 900px;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+}
+th{
+    background-color: #ab946d;;
+    font-weight: bold;
+}
+tr:hover{
+    background-color: #f5f5f5;
+}
+
+#offeringAccept {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    cursor: pointer;
+    color: lawngreen;
+    border: 2px solid lawngreen;
+    transition: 0.15s;
+}
+#offeringAccept:hover{
+    background-color: lawngreen;
+    color: #f5f5f5;
+}
+#deleteLookingFor{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+    border: 2px solid red;
+    transition: 0.15s;
+}
+#deleteLookingFor:hover {
+    background-color: red;
+    color: #f5f5f5;
+}
+#donateLookingFor{
+    padding: 10px;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        font-weight: bold;
+        cursor: pointer;
+        color: goldenrod;
+        border: 2px solid goldenrod;
+        transition: 0.15s;
+}
+#donateLookingFor:hover {
+        background-color: goldenrod;
+        color: #f5f5f5;
+}
+#btnTd{
+    width: 200px;
+}
+.optionButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

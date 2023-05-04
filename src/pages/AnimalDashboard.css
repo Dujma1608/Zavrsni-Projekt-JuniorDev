@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 280px);
+}
+.dashboard{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.dashboard .filter-container{
+    margin: 5em;
+    height: 200px;
+    padding: 10px;
+}

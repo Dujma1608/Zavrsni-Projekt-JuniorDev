@@ -1,0 +1,323 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Rex",
+      "type": "dog",
+      "age": 2,
+      "isAdopted": false,
+      "description": "Playful and loyal dog ghfghfgb dfg ",
+      "image": "shepherd",
+      "idChip": false,
+      "lastChecked": ""
+    },
+    {
+      "id": 4,
+      "name": "Lota",
+      "type": "dog",
+      "age": 9,
+      "isAdopted": true,
+      "description": "Loves to cuddle",
+      "image": "shihtzu",
+      "idChip": true,
+      "lastChecked": ""
+    },
+    {
+      "name": "Buco2",
+      "type": "dog",
+      "age": 2016,
+      "idChip": true,
+      "isAdopted": false,
+      "lastChecked": "",
+      "image": "poodle",
+      "description": "Brown big bear",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Tom",
+      "type": "cat",
+      "age": 2014,
+      "isAdopted": true,
+      "description": "Catching a mouse",
+      "image": "abyssinian",
+      "idChip": false,
+      "lastChecked": ""
+    },
+    {
+      "name": "Josip",
+      "type": "dog",
+      "age": 2112,
+      "isAdopted": false,
+      "description": "Hello",
+      "image": "andaluz",
+      "idChip": true,
+      "lastChecked": "2023-04-20",
+      "id": 7
+    },
+    {
+      "name": "Jurica",
+      "type": "cat",
+      "age": "2",
+      "isAdopted": false,
+      "description": "Nice cat",
+      "image": "siamese",
+      "idChip": true,
+      "lastChecked": "2023-05-25",
+      "id": 12
+    },
+    {
+      "name": "Beks",
+      "type": "cat",
+      "age": "5",
+      "isAdopted": false,
+      "description": "bbbbbbbb",
+      "image": "ragdoll",
+      "idChip": false,
+      "lastChecked": "2023-05-19",
+      "id": 15
+    },
+    {
+      "name": "Jurica",
+      "type": "dog",
+      "age": "2",
+      "isAdopted": false,
+      "description": "",
+      "image": "bulldog",
+      "idChip": true,
+      "lastChecked": "2023-05-18",
+      "id": 16
+    },
+    {
+      "name": "Kićo",
+      "type": "parrot",
+      "age": "4",
+      "isAdopted": false,
+      "description": "Beautiful",
+      "image": "green",
+      "idChip": true,
+      "lastChecked": "2023-05-15",
+      "id": 17
+    },
+    {
+      "name": "Nemo",
+      "type": "fish",
+      "age": "5",
+      "isAdopted": false,
+      "description": "",
+      "image": "goldfish",
+      "idChip": true,
+      "lastChecked": "2023-05-15",
+      "id": 18
+    },
+    {
+      "name": "Kico 2",
+      "type": "parrot",
+      "age": "2",
+      "isAdopted": false,
+      "description": "",
+      "image": "cockatiel",
+      "idChip": false,
+      "lastChecked": "2023-05-16",
+      "id": 19
+    },
+    {
+      "name": "Mario",
+      "type": "dog",
+      "age": "2",
+      "isAdopted": false,
+      "description": "",
+      "image": "poodle",
+      "idChip": false,
+      "lastChecked": "2023-05-14",
+      "id": 20
+    },
+    {
+      "name": "Mario 2",
+      "type": "dog",
+      "age": "2",
+      "isAdopted": false,
+      "description": "",
+      "image": "shihtzu",
+      "idChip": true,
+      "lastChecked": "2023-05-19",
+      "id": 21
+    },
+    {
+      "name": "Josip",
+      "type": "cat",
+      "age": "2",
+      "isAdopted": false,
+      "description": "",
+      "image": "persian",
+      "idChip": true,
+      "lastChecked": "2023-05-14",
+      "id": 22
+    },
+    {
+      "name": "Jurica",
+      "type": "fish",
+      "age": "4",
+      "isAdopted": false,
+      "description": "",
+      "image": "oscar",
+      "idChip": true,
+      "lastChecked": "2023-05-19",
+      "id": 23
+    },
+    {
+      "name": "Beks",
+      "type": "fish",
+      "age": "3",
+      "isAdopted": false,
+      "description": "",
+      "image": "butterfly",
+      "idChip": true,
+      "lastChecked": "2023-05-25",
+      "id": 24
+    },
+    {
+      "name": "Marko",
+      "type": "parrot",
+      "age": "3",
+      "isAdopted": false,
+      "description": "",
+      "image": "green",
+      "idChip": true,
+      "lastChecked": "2023-05-08",
+      "id": 25
+    },
+    {
+      "name": "Josip",
+      "type": "dog",
+      "age": "2",
+      "isAdopted": false,
+      "description": "",
+      "image": "husky",
+      "idChip": true,
+      "lastChecked": "2023-05-26",
+      "id": 26
+    },
+    {
+      "name": "Žuti",
+      "type": "cat",
+      "age": "3",
+      "isAdopted": false,
+      "description": "",
+      "image": "sphynx",
+      "idChip": true,
+      "lastChecked": "2023-05-25",
+      "id": 27
+    },
+    {
+      "name": "Ruzni",
+      "type": "fish",
+      "age": "4",
+      "isAdopted": false,
+      "description": "",
+      "image": "butterfly",
+      "idChip": false,
+      "lastChecked": "2023-05-07",
+      "id": 28
+    }
+  ],
+  "types": [
+    "dog",
+    "cat",
+    "parrot",
+    "fish"
+  ],
+  "dogBreeds": [
+    "shepherd",
+    "bulldog",
+    "retriever",
+    "french_bulldog",
+    "poodle",
+    "husky",
+    "shihtzu"
+  ],
+  "catBreeds": [
+    "siamese",
+    "persian",
+    "ragdoll",
+    "sphynx",
+    "burmese",
+    "abyssinian"
+  ],
+  "fishBreeds": [
+    "oscar",
+    "goldfish",
+    "butterfly"
+  ],
+  "parrotBreeds": [
+    "green",
+    "cockatiel"
+  ],
+  "donations": [
+    {
+      "id": 1,
+      "type": "donated",
+      "item": "food",
+      "value": "21",
+      "description": "Quality lamb"
+    },
+    {
+      "id": 3,
+      "type": "offering",
+      "item": "medications",
+      "value": "37.99",
+      "description": "bug medication"
+    },
+    {
+      "id": 4,
+      "type": "lookingFor",
+      "item": "food",
+      "value": "22.19",
+      "description": "Donated"
+    },
+    {
+      "type": "donated",
+      "item": "food",
+      "value": "55.99",
+      "description": "Lots of vegetables",
+      "id": 7
+    },
+    {
+      "type": "donated",
+      "item": "food",
+      "value": "12.99",
+      "description": "Pork",
+      "id": 8
+    },
+    {
+      "type": "donated",
+      "item": "toys",
+      "value": "2",
+      "description": "hiok",
+      "id": 9
+    }
+  ],
+  "notifications": [
+    {
+      "id": 2,
+      "title": "Something 2",
+      "date": "16/08/2021",
+      "text": "Something something 2",
+      "isImportant": false
+    },
+    {
+      "title": "Hello",
+      "date": "30/4/2023",
+      "text": "HELLOO",
+      "isImportant": true,
+      "id": 4
+    },
+    {
+      "title": "Big discount incoming soon",
+      "date": "2/5/2023",
+      "text": "Big sidosdmsfvdsfg g",
+      "isImportant": true,
+      "id": 5
+    }
+  ]
+}

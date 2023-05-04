@@ -1,0 +1,32 @@
+button{
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 15px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+#adoptBtn{
+    background-color: lightgreen;
+}
+#adoptBtn:hover{
+    background-color: green;
+}
+#detail-label{
+    background-color: lightsalmon;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 15px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+#detail-label:hover{
+    background-color: orange;
+}
+#animalPic{
+    height: 240px;
+    width: 200px;
+}

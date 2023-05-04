@@ -1,0 +1,72 @@
+#animal-form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: left;
+    padding: 20px 30px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px #888888;
+}
+#animal-form input, textarea, select{
+    margin: 10px 0;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+#animal-form button{
+    margin-top: 1rem;
+}
+#animal-form label {
+    margin: 0;
+}
+#form-animal-container{
+    background-color: aliceblue;
+    padding: 30px 10px;
+}
+#submit-animal{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: #f2f2f2;
+}
+#submit-animal:hover {
+    background-color:deeppink;
+}
+#cancel {
+    background-color: red;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid;
+    padding: 10px;
+    transition: 0.15s;
+}
+
+#cancel:hover {
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
+#updateBtn {
+    background-color:cornflowerblue;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid;
+    padding: 10px;
+    transition: 0.15s;
+}
+.updateBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#updateBtn:hover {
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+}

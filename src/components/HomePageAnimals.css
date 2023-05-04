@@ -1,0 +1,17 @@
+.home-animals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.home-animals button{
+    background-color: #ab8a46;
+    padding: 10px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.home-animals button:hover{
+    background-color: #856513;
+}
