@@ -24,7 +24,11 @@ const Animal = () => {
     <div className="animal-container">
       <h1>Get to know your friend a little bit more.</h1>
       {update ? (
-        <UpdateAnimal animal={animal} setUpdate={setUpdate} />
+        <UpdateAnimal
+          animal={animal}
+          setUpdate={setUpdate}
+          setAnimal={setAnimal}
+        />
       ) : (
         <div className="animal-detail">
           <div className="animal-container-inward">
