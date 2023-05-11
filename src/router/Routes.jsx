@@ -1,12 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import Donations from '../pages/Donations'
-import Notifications from '../pages/Notifications'
-import Form from "../components/form/Form";
-import About from "../pages/About";
+import {Form, Animal} from '../components'
 import App from "../App";
-import AnimalDashboard from "../pages/AnimalDashboard";
-import HomePage from "../pages/HomePage";
-import Animal from "../pages/Animal";
+import { AnimalDashboard, Donations, Notifications, About, HomePage } from "../pages";
 
 export const router = createBrowserRouter([
   {
@@ -20,7 +15,6 @@ export const router = createBrowserRouter([
       { path: "donations", element: <Donations /> },
       { path: "information", element: <Notifications /> },
       { path: "about", element: <About /> },
-      { path: "newAnimal", element: <Form /> },
     ],
   },
 ]);

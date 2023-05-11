@@ -1,0 +1,24 @@
+
+#new-donation{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: #f2f2f2;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#new-donation:hover{
+    background-color: #0e660e;
+}
+.donations-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    height: 850px;
+}
+.tables-container{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}

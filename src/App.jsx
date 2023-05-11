@@ -1,14 +1,15 @@
 import "./App.css";
 import RoleContext from "./context/RoleContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DonationsContext } from "./context/DonationsContext";
 import { AnimalsContext} from "./context/AnimalsContext"
-import NavBar from "./pages/NavBar";
-import { Outlet } from "react-router-dom";
-import HomeContainerTop from "./pages/HomeContainerTop";
-
+import NavBar from "./components/Header/NavBar";
+import { Outlet, useNavigate } from "react-router-dom";
+import HomeContainerTop from "./components/Header/HomeContainerTop";
+import Footer from "./components/Footer/Footer";
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
+  const navigate = useNavigate();
 
   const [donations, setDonations] = useState({
     lookingFor: [],
@@ -16,22 +17,25 @@ function App() {
     donated: [],
   });
 
+
   const [animals, setAnimals] = useState([]);
-  const [active, setActive] = useState("home");
+
 
   const toggleRole = () => {
     setIsAdmin(!isAdmin);
+    navigate("/")
   };
   return (
     <>
       <RoleContext.Provider value={{ isAdmin, toggleRole }}>
         <AnimalsContext.Provider value={{ animals, setAnimals }}>
           <div className="homeTop">
-            <NavBar active={active} setActive={setActive} />
-            <HomeContainerTop setActive={setActive} />
+            <NavBar />
+            <HomeContainerTop />
           </div>
           <DonationsContext.Provider value={{ donations, setDonations }}>
             <Outlet />
+            <Footer/>
           </DonationsContext.Provider>
         </AnimalsContext.Provider>
       </RoleContext.Provider>

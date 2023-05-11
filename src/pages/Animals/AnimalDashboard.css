@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 280px);
+}
+.dashboard{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.dashboard .filter-container{
+    margin: 5em;
+    height: 300px;
+    padding: 10px;
+}
+#searchBtn{
+    background-color: darkorange;
+    border: none;
+    padding: 12px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#resetBtn{
+    background-color: black;
+    border: none;
+    padding: 12px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}

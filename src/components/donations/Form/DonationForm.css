@@ -1,0 +1,65 @@
+#donation-form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: left;
+    padding: 20px 30px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px #888888;
+}
+#donation-form label{
+    margin-top: 10px;
+}
+#donation-form input[type="number"], select, textarea{
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: none;
+    border-bottom: 2px solid peru;
+}
+#donation-form input,
+textarea,
+select :focus {
+    outline: none;
+}
+#donation-form #textarea{
+    background-color: #f5f5f5;
+}
+#donation-form .buttons{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#donation-form #submit{
+    background-color: teal;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid;
+    padding: 10px;
+    transition: 0.15s;
+}
+#donation-form #submit:hover{
+    border: 2px solid teal;
+    background-color: white;
+    color: teal;
+}
+#donation-form #cancel{
+    background-color: lightcoral;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid;
+    padding: 10px;
+    transition: 0.15s;
+}
+#donation-form #cancel:hover {
+    border: 2px solid lightcoral;
+    background-color: white;
+    color: lightcoral;
+}

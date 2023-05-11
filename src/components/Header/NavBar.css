@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 110px;
+    top: 0;
+    left: 0;
+}
+
+.header .logo {
+    margin-left: 1rem;
+}
+.header .logo h2{
+    font-style: italic;
+    font-size: 2.2rem;
+    color: white;
+}
+.header .logo p{
+    font-size: 1.2rem;
+    color: white;
+}
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+.header nav ul li {
+    margin-right: 1rem;
+}
+
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header nav ul li a:hover {
+    color: #ab946d;
+}
+.header nav ul .active{
+   border-bottom: 3px solid #ab946d;
+}
+
+#create-animal{
+    position: relative;
+    right: 200px;
+    background-color: #ab946d;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#create-animal:hover{
+    background-color: darkgoldenrod;
+}
